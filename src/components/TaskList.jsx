@@ -93,7 +93,7 @@ export default function TaskList() {
                 ) : (
                   <span
                     className={
-                      task.completed ? "line-through text-gray-500" : "w-1/3 sm:w-1/2 line-clamp-2 break-all sm:break-words"
+                      task.completed ? "line-through text-gray-500" : "w-full overflow-hidden line-clamp-2 break-words whitespace-normal"
                     }
                   >
                     {task.text}
